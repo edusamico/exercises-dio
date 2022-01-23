@@ -1,0 +1,110 @@
+:root {
+    --principal:#991212;
+    --fundo:#141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*base*/
+body{
+    background: var(--fundo);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--principal);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*filme principal*/
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)100%), url("/img/capa-that70s.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;   
+}
+
+.main-movie .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right:20px;
+}
+
+.main-movie .container {
+    width: 70%;
+}
+
+.main-movie .title {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button {
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.button:hover {
+    color: #000;
+    background-color:#fff;
+}
+
+.button i {
+    margin-right: 5px;
+}
+
+.buttons {
+    margin-bottom: 40px;
+}
+.container {
+    margin-left: 30px;
+}
+
+
+/*CAROUSEL*/
+
+.box-film {
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-films {
+    margin-top: 5px;
+ }
